@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["ES2017", "DOM"],
+    "moduleResolution": "node",
+    "types": ["node", "@playwright/test"],
+    "skipLibCheck": true
+  },
+  "include": ["tests/**/*.ts"]
+}
